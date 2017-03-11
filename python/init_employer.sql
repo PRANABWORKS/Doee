@@ -1,3 +1,4 @@
+DROP TABLE employer;
 CREATE TABLE employer
 (
 reference BIGINT AUTO_INCREMENT,
