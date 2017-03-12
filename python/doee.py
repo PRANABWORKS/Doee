@@ -98,7 +98,12 @@ def submitJob():
         "employerid" : employerid
     }
     
-    return jsin.dumps(somedict)
+    return json.dumps(somedict)
+    
+@app.route('/acceptJob', methods['POST'])
+def acceptJob():
+    
+    return "Under development"
 
 @app.route('/shutdown')
 def shutdown():
