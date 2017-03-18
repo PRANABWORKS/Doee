@@ -1,0 +1,13 @@
+.mainbox {
+	background-color : red;
+	width : 40%;
+	height : 100%;
+	padding : calc(5% - 3px);
+	float : right;
+	border : solid 3px;
+	
+}
+
+html, body{
+    min-height: 100%;
+}

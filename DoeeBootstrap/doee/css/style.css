@@ -1,0 +1,52 @@
+.bg-faded{
+	background-color:#fff;
+}
+.bg-faded .navbar-brand{
+	color:#19cddd;
+}
+
+
+.login-page{
+	background: -moz-linear-gradient(top, #a9e4f7 0%, #0fb4e7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a9e4f7 0%,#0fb4e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	min-height:100vh;
+}
+
+.left {
+	top:60px;
+  width: 0; 
+  position:relative;
+  height: 0;
+  float:left;
+ border-top: 230px solid transparent;
+	border-bottom: 230px solid transparent;
+	border-right: 170px solid rgba(248, 252, 253, 0.57);
+}
+
+.left p{
+	position:absolute;
+	width: 129px;
+    top: -43px;
+    text-align:center;
+    left: 36px;
+}
+.right{
+	width: 0; 
+	float:right;
+	top:60px;
+	  position:relative;
+	height: 0; 
+	border-top: 230px solid transparent;
+	border-bottom: 230px solid transparent;
+	border-left: 170px solid rgba(248, 252, 253, 0.57);
+}
+
+.right p {
+position:absolute;
+	width: 129px;
+	
+    text-align:center;
+    top: -43px;
+    right:30px;
+}
